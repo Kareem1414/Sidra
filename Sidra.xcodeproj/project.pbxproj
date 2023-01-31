@@ -1,0 +1,1213 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2000AB92981F57A00DCA1DE /* SoundsSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2000AB82981F57900DCA1DE /* SoundsSettingsView.swift */; };
+		E2000ABF29820B6E00DCA1DE /* FitnessSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2000ABE29820B6E00DCA1DE /* FitnessSettingsView.swift */; };
+		E2000ACD2982285100DCA1DE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2000ACC2982285100DCA1DE /* Constants.swift */; };
+		E2000ACF2982286200DCA1DE /* CalculatorButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2000ACE2982286200DCA1DE /* CalculatorButtonStyle.swift */; };
+		E2000AD52982287000DCA1DE /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2000AD02982287000DCA1DE /* Calculator.swift */; };
+		E2000AD62982287000DCA1DE /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2000AD12982287000DCA1DE /* ButtonType.swift */; };
+		E2000AD72982287000DCA1DE /* ArithmeticOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2000AD22982287000DCA1DE /* ArithmeticOperation.swift */; };
+		E2000AD82982287000DCA1DE /* Digit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2000AD32982287000DCA1DE /* Digit.swift */; };
+		E2000AD92982287000DCA1DE /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2000AD42982287000DCA1DE /* CalculatorViewModel.swift */; };
+		E2000ADC2982288A00DCA1DE /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2000ADA2982288A00DCA1DE /* CalculatorButton.swift */; };
+		E2000ADD2982288A00DCA1DE /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2000ADB2982288A00DCA1DE /* CalculatorView.swift */; };
+		E2043612294CF32B00746A3A /* FaceIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2043611294CF32B00746A3A /* FaceIDView.swift */; };
+		E2043619294D0E0500746A3A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E204361B294D0E0500746A3A /* Localizable.strings */; };
+		E204361E294DD44100746A3A /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E204361D294DD44100746A3A /* AboutView.swift */; };
+		E204362A294E0D2E00746A3A /* WhatIsNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2043629294E0D2E00746A3A /* WhatIsNewView.swift */; };
+		E204362C294E151300746A3A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E204362B294E151300746A3A /* ProfileView.swift */; };
+		E2091211294FA0D5008C4579 /* ShortcutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2091210294FA0D5008C4579 /* ShortcutsView.swift */; };
+		E2091213294FA38F008C4579 /* 9.json in Resources */ = {isa = PBXBuildFile; fileRef = E2091212294FA38E008C4579 /* 9.json */; };
+		E2091215294FB6DF008C4579 /* 10.json in Resources */ = {isa = PBXBuildFile; fileRef = E2091214294FB6DF008C4579 /* 10.json */; };
+		E209902928E294C800E0F586 /* AllCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E209902828E294C800E0F586 /* AllCalendarView.swift */; };
+		E20F17D72987B981002299A4 /* CalculationMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20F17D62987B981002299A4 /* CalculationMenuView.swift */; };
+		E20F17FF29882A4B002299A4 /* FitnessCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20F17FE29882A4B002299A4 /* FitnessCardView.swift */; };
+		E20F180129883F59002299A4 /* SleepCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20F180029883F59002299A4 /* SleepCardView.swift */; };
+		E21506182948D1550068A197 /* SubjectDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21506172948D1550068A197 /* SubjectDetailsView.swift */; };
+		E21846FE28DF729A0087309C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E21846FD28DF729A0087309C /* Lottie */; };
+		E2298A5529463CB300D9999A /* CalendarSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2298A5429463CB300D9999A /* CalendarSettingsView.swift */; };
+		E2298A572947778200D9999A /* ProcessFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2298A562947778200D9999A /* ProcessFileView.swift */; };
+		E237257E295A193A0039D6F2 /* 12.json in Resources */ = {isa = PBXBuildFile; fileRef = E237257D295A193A0039D6F2 /* 12.json */; };
+		E2372580295B49580039D6F2 /* 11.json in Resources */ = {isa = PBXBuildFile; fileRef = E237257F295B49580039D6F2 /* 11.json */; };
+		E237D7F62961E098007087CE /* 13.json in Resources */ = {isa = PBXBuildFile; fileRef = E237D7F52961E098007087CE /* 13.json */; };
+		E23D67C628DE3B1500C5C29B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D67C528DE3B1500C5C29B /* Login.swift */; };
+		E23D67C828DE637C00C5C29B /* HisnulMuslim.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D67C728DE637C00C5C29B /* HisnulMuslim.swift */; };
+		E25521C228EF72D400A7DC16 /* QuranHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25521C128EF72D400A7DC16 /* QuranHomeView.swift */; };
+		E25521C428EF746100A7DC16 /* QuranIndex_EN.json in Resources */ = {isa = PBXBuildFile; fileRef = E25521C328EF746100A7DC16 /* QuranIndex_EN.json */; };
+		E259A60928E7766500C06C5F /* NamesOfAllah_EN.json in Resources */ = {isa = PBXBuildFile; fileRef = E259A60828E7766500C06C5F /* NamesOfAllah_EN.json */; };
+		E259A60B28E7A33E00C06C5F /* NamesOfAllahView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E259A60A28E7A33E00C06C5F /* NamesOfAllahView.swift */; };
+		E259A60D28E7A5BE00C06C5F /* HisnMuslim_EN.json in Resources */ = {isa = PBXBuildFile; fileRef = E259A60C28E7A5BE00C06C5F /* HisnMuslim_EN.json */; };
+		E25FF43229869B5500A95CE8 /* AddSubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25FF43129869B5500A95CE8 /* AddSubjectView.swift */; };
+		E2618F4528DA16E600A4937C /* DynamicFilteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2618F4428DA16E600A4937C /* DynamicFilteredView.swift */; };
+		E262B8FC28EBE9100027021E /* xxx.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E262B8FB28EBE9100027021E /* xxx.pdf */; };
+		E26A81012985BA84003D618B /* 16.json in Resources */ = {isa = PBXBuildFile; fileRef = E26A80FF2985BA83003D618B /* 16.json */; };
+		E26A81022985BA84003D618B /* 15.json in Resources */ = {isa = PBXBuildFile; fileRef = E26A81002985BA84003D618B /* 15.json */; };
+		E281F0A82919174F00C6851A /* InfoDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281F0A72919174F00C6851A /* InfoDeviceView.swift */; };
+		E283CD31294A59E5009B72C1 /* SemesterDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E283CD30294A59E5009B72C1 /* SemesterDetailsView.swift */; };
+		E283CD33294A5B72009B72C1 /* SubjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E283CD32294A5B72009B72C1 /* SubjectsView.swift */; };
+		E283CD35294A641F009B72C1 /* CloudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E283CD34294A641F009B72C1 /* CloudView.swift */; };
+		E283CD40294A8026009B72C1 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E283CD3B294A8026009B72C1 /* DownloadManager.swift */; };
+		E283CD41294A8026009B72C1 /* PDFReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E283CD3C294A8026009B72C1 /* PDFReaderView.swift */; };
+		E283CD43294A8026009B72C1 /* ProgressPDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = E283CD3E294A8026009B72C1 /* ProgressPDF.swift */; };
+		E283CD44294A8026009B72C1 /* PDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E283CD3F294A8026009B72C1 /* PDFViewer.swift */; };
+		E283CD46294A8051009B72C1 /* tryQuranView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E283CD45294A8051009B72C1 /* tryQuranView.swift */; };
+		E283CD48294B2BFD009B72C1 /* 7.json in Resources */ = {isa = PBXBuildFile; fileRef = E283CD47294B2BFD009B72C1 /* 7.json */; };
+		E29A232C296361AB00BCD3EC /* MuslimSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A232B296361AB00BCD3EC /* MuslimSettingsView.swift */; };
+		E29D913028E0861400BBC5C6 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29D912F28E0861400BBC5C6 /* WelcomeView.swift */; };
+		E29D913228E0B1B100BBC5C6 /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = E29D913128E0B1B100BBC5C6 /* 2.json */; };
+		E29D913428E1505300BBC5C6 /* PremiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29D913328E1505300BBC5C6 /* PremiumView.swift */; };
+		E29D913628E17B3900BBC5C6 /* AppearanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29D913528E17B3900BBC5C6 /* AppearanceView.swift */; };
+		E29D913A28E1859D00BBC5C6 /* 3.json in Resources */ = {isa = PBXBuildFile; fileRef = E29D913928E1859D00BBC5C6 /* 3.json */; };
+		E29D913D28E1934500BBC5C6 /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29D913C28E1934500BBC5C6 /* OTPView.swift */; };
+		E2A45133292148F300157FF8 /* ScanOCRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A45132292148F300157FF8 /* ScanOCRView.swift */; };
+		E2AAADE429299F4B002953BC /* ConvertFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AAADE329299F4B002953BC /* ConvertFileView.swift */; };
+		E2AC1F0A29129A0B007B9A9A /* PhoneVerifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC1F0929129A0B007B9A9A /* PhoneVerifyView.swift */; };
+		E2AE6476293F960A00EA4D29 /* SiriView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE6475293F960A00EA4D29 /* SiriView.swift */; };
+		E2AE64782941139B00EA4D29 /* VerifyPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE64772941139B00EA4D29 /* VerifyPhoneView.swift */; };
+		E2AE647A29420A2700EA4D29 /* StudentScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE647929420A2700EA4D29 /* StudentScheduleView.swift */; };
+		E2AF4ADD28DE8482006D9F9E /* QuranView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF4ADC28DE8482006D9F9E /* QuranView.swift */; };
+		E2AF4AE128DE84E7006D9F9E /* SoundsReadersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF4AE028DE84E7006D9F9E /* SoundsReadersView.swift */; };
+		E2AF4AE328DE8572006D9F9E /* FitnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF4AE228DE8572006D9F9E /* FitnessView.swift */; };
+		E2AF4AE528DE8DED006D9F9E /* PrayerTimesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF4AE428DE8DED006D9F9E /* PrayerTimesView.swift */; };
+		E2AF4AE728DE9028006D9F9E /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF4AE628DE9028006D9F9E /* CalendarView.swift */; };
+		E2BC071B291C627700F41D38 /* QiblaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC071A291C627700F41D38 /* QiblaView.swift */; };
+		E2BC071D291C647200F41D38 /* CompassHeading.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC071C291C647200F41D38 /* CompassHeading.swift */; };
+		E2C8F2B5291E4BBC00FD0266 /* ContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C8F2B4291E4BBC00FD0266 /* ContactUsView.swift */; };
+		E2C8F2BA291E7E0A00FD0266 /* Adhan in Frameworks */ = {isa = PBXBuildFile; productRef = E2C8F2B9291E7E0A00FD0266 /* Adhan */; };
+		E2CD97BB291BAA930073C769 /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CD97BA291BAA930073C769 /* ServicesView.swift */; };
+		E2D68C20297FE1D1006AE547 /* 14.json in Resources */ = {isa = PBXBuildFile; fileRef = E2D68C1F297FE1D0006AE547 /* 14.json */; };
+		E2D68C22297FE8B9006AE547 /* DeniedPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D68C21297FE8B9006AE547 /* DeniedPermissionView.swift */; };
+		E2D7B0562944123600E5B5A8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D7B0552944123600E5B5A8 /* HomeView.swift */; };
+		E2DED33E290D7D9D0016A77F /* SFitnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DED33D290D7D9D0016A77F /* SFitnessView.swift */; };
+		E2DFA78E2985312B00540EA3 /* QuizInstructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DFA78D2985312B00540EA3 /* QuizInstructions.swift */; };
+		E2DFA7922985325C00540EA3 /* QuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DFA7912985325C00540EA3 /* QuestionsView.swift */; };
+		E2DFA79429855E0A00540EA3 /* SubjectBooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DFA79329855E0A00540EA3 /* SubjectBooksView.swift */; };
+		E2DFA7962985608000540EA3 /* CloudComputing.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E2DFA7952985608000540EA3 /* CloudComputing.pdf */; };
+		E2DFA79829857A5600540EA3 /* StudentSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DFA79729857A5600540EA3 /* StudentSettingsView.swift */; };
+		E2DFA79A2985814800540EA3 /* GPACalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DFA7992985814800540EA3 /* GPACalculateView.swift */; };
+		E2DFEB6528F1CA3A004DEDCF /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = E2DFEB6428F1CA3A004DEDCF /* 4.json */; };
+		E2DFEB6728F3011A004DEDCF /* AddCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DFEB6628F3011A004DEDCF /* AddCalendarView.swift */; };
+		E2DFEB6928F4AC6C004DEDCF /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DFEB6828F4AC6C004DEDCF /* NotificationsView.swift */; };
+		E2DFEB6C28F4B39C004DEDCF /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DFEB6B28F4B39C004DEDCF /* ContactsView.swift */; };
+		E2E0222728DB053700694DDA /* NewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E0222628DB053700694DDA /* NewTask.swift */; };
+		E2E0222928DB084000694DDA /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E0222828DB084000694DDA /* Settings.swift */; };
+		E2E5073A2954AA2D00A407EC /* ResultProcessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E507392954AA2D00A407EC /* ResultProcessView.swift */; };
+		E2E5CD7828D5D4B30091B4C8 /* SidraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5CD7728D5D4B30091B4C8 /* SidraApp.swift */; };
+		E2E5CD7A28D5D4B30091B4C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5CD7928D5D4B30091B4C8 /* ContentView.swift */; };
+		E2E5CD7C28D5D4B50091B4C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E5CD7B28D5D4B50091B4C8 /* Assets.xcassets */; };
+		E2E5CD7F28D5D4B50091B4C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E5CD7E28D5D4B50091B4C8 /* Preview Assets.xcassets */; };
+		E2E5CD8128D5D4B50091B4C8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5CD8028D5D4B50091B4C8 /* Persistence.swift */; };
+		E2E5CD8428D5D4B50091B4C8 /* Sidra.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2E5CD8228D5D4B50091B4C8 /* Sidra.xcdatamodeld */; };
+		E2E5CD8F28D5D4B60091B4C8 /* SidraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5CD8E28D5D4B60091B4C8 /* SidraTests.swift */; };
+		E2E5CD9928D5D4B60091B4C8 /* SidraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5CD9828D5D4B60091B4C8 /* SidraUITests.swift */; };
+		E2E5CD9B28D5D4B60091B4C8 /* SidraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5CD9A28D5D4B60091B4C8 /* SidraUITestsLaunchTests.swift */; };
+		E2E5CDAB28D5D6F50091B4C8 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5CDAA28D5D6F50091B4C8 /* Task.swift */; };
+		E2E5CDAD28D5D7890091B4C8 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5CDAC28D5D7890091B4C8 /* CalendarViewModel.swift */; };
+		E2E5CDAF28D5D82F0091B4C8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5CDAE28D5D82F0091B4C8 /* Home.swift */; };
+		E2E5CDB128D5DAED0091B4C8 /* Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5CDB028D5DAED0091B4C8 /* Ext.swift */; };
+		E2ED3FEC28E6276A00EF3EAC /* AdvancedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ED3FEB28E6276A00EF3EAC /* AdvancedView.swift */; };
+		E2EFAECE2936CDF000B595A4 /* ListNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFAECD2936CDF000B595A4 /* ListNotificationView.swift */; };
+		E2EFAED02936D91800B595A4 /* CreateNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFAECF2936D91800B595A4 /* CreateNotificationView.swift */; };
+		E2EFAED22938D8B900B595A4 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFAED12938D8B900B595A4 /* ReaderView.swift */; };
+		E2EFAED42938D92600B595A4 /* audioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFAED32938D92600B595A4 /* audioView.swift */; };
+		E2EFAED6293AAE6800B595A4 /* TermsAndConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFAED5293AAE6800B595A4 /* TermsAndConditionsView.swift */; };
+		E2EFAED8293AB21500B595A4 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFAED7293AB21500B595A4 /* LocationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2E5CD8B28D5D4B60091B4C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2E5CD6C28D5D4B30091B4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2E5CD7328D5D4B30091B4C8;
+			remoteInfo = Sidra;
+		};
+		E2E5CD9528D5D4B60091B4C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2E5CD6C28D5D4B30091B4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2E5CD7328D5D4B30091B4C8;
+			remoteInfo = Sidra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2000AB82981F57900DCA1DE /* SoundsSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsSettingsView.swift; sourceTree = "<group>"; };
+		E2000ABE29820B6E00DCA1DE /* FitnessSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessSettingsView.swift; sourceTree = "<group>"; };
+		E2000ACC2982285100DCA1DE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E2000ACE2982286200DCA1DE /* CalculatorButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorButtonStyle.swift; sourceTree = "<group>"; };
+		E2000AD02982287000DCA1DE /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		E2000AD12982287000DCA1DE /* ButtonType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
+		E2000AD22982287000DCA1DE /* ArithmeticOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArithmeticOperation.swift; sourceTree = "<group>"; };
+		E2000AD32982287000DCA1DE /* Digit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Digit.swift; sourceTree = "<group>"; };
+		E2000AD42982287000DCA1DE /* CalculatorViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		E2000ADA2982288A00DCA1DE /* CalculatorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
+		E2000ADB2982288A00DCA1DE /* CalculatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		E2043611294CF32B00746A3A /* FaceIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDView.swift; sourceTree = "<group>"; };
+		E204361C294D0E4900746A3A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E204361D294DD44100746A3A /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		E2043629294E0D2E00746A3A /* WhatIsNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsNewView.swift; sourceTree = "<group>"; };
+		E204362B294E151300746A3A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		E2091210294FA0D5008C4579 /* ShortcutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsView.swift; sourceTree = "<group>"; };
+		E2091212294FA38E008C4579 /* 9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 9.json; sourceTree = "<group>"; };
+		E2091214294FB6DF008C4579 /* 10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 10.json; sourceTree = "<group>"; };
+		E209902828E294C800E0F586 /* AllCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCalendarView.swift; sourceTree = "<group>"; };
+		E20F17D62987B981002299A4 /* CalculationMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationMenuView.swift; sourceTree = "<group>"; };
+		E20F17FE29882A4B002299A4 /* FitnessCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessCardView.swift; sourceTree = "<group>"; };
+		E20F180029883F59002299A4 /* SleepCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepCardView.swift; sourceTree = "<group>"; };
+		E21506172948D1550068A197 /* SubjectDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectDetailsView.swift; sourceTree = "<group>"; };
+		E2298A5429463CB300D9999A /* CalendarSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSettingsView.swift; sourceTree = "<group>"; };
+		E2298A562947778200D9999A /* ProcessFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessFileView.swift; sourceTree = "<group>"; };
+		E237257D295A193A0039D6F2 /* 12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 12.json; sourceTree = "<group>"; };
+		E237257F295B49580039D6F2 /* 11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 11.json; sourceTree = "<group>"; };
+		E237D7F52961E098007087CE /* 13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 13.json; sourceTree = "<group>"; };
+		E23D67C528DE3B1500C5C29B /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		E23D67C728DE637C00C5C29B /* HisnulMuslim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisnulMuslim.swift; sourceTree = "<group>"; };
+		E25521C128EF72D400A7DC16 /* QuranHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranHomeView.swift; sourceTree = "<group>"; };
+		E25521C328EF746100A7DC16 /* QuranIndex_EN.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = QuranIndex_EN.json; sourceTree = "<group>"; };
+		E259A60828E7766500C06C5F /* NamesOfAllah_EN.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NamesOfAllah_EN.json; sourceTree = "<group>"; };
+		E259A60A28E7A33E00C06C5F /* NamesOfAllahView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesOfAllahView.swift; sourceTree = "<group>"; };
+		E259A60C28E7A5BE00C06C5F /* HisnMuslim_EN.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HisnMuslim_EN.json; sourceTree = "<group>"; };
+		E25FF43129869B5500A95CE8 /* AddSubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubjectView.swift; sourceTree = "<group>"; };
+		E2618F4428DA16E600A4937C /* DynamicFilteredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFilteredView.swift; sourceTree = "<group>"; };
+		E262B8FB28EBE9100027021E /* xxx.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = xxx.pdf; sourceTree = "<group>"; };
+		E26A80FF2985BA83003D618B /* 16.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 16.json; sourceTree = "<group>"; };
+		E26A81002985BA84003D618B /* 15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 15.json; sourceTree = "<group>"; };
+		E281F0A72919174F00C6851A /* InfoDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDeviceView.swift; sourceTree = "<group>"; };
+		E283CD30294A59E5009B72C1 /* SemesterDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemesterDetailsView.swift; sourceTree = "<group>"; };
+		E283CD32294A5B72009B72C1 /* SubjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsView.swift; sourceTree = "<group>"; };
+		E283CD34294A641F009B72C1 /* CloudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudView.swift; sourceTree = "<group>"; };
+		E283CD3B294A8026009B72C1 /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		E283CD3C294A8026009B72C1 /* PDFReaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFReaderView.swift; sourceTree = "<group>"; };
+		E283CD3E294A8026009B72C1 /* ProgressPDF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressPDF.swift; sourceTree = "<group>"; };
+		E283CD3F294A8026009B72C1 /* PDFViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewer.swift; sourceTree = "<group>"; };
+		E283CD45294A8051009B72C1 /* tryQuranView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryQuranView.swift; sourceTree = "<group>"; };
+		E283CD47294B2BFD009B72C1 /* 7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 7.json; sourceTree = "<group>"; };
+		E29A232B296361AB00BCD3EC /* MuslimSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuslimSettingsView.swift; sourceTree = "<group>"; };
+		E29D912F28E0861400BBC5C6 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		E29D913128E0B1B100BBC5C6 /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2.json; sourceTree = "<group>"; };
+		E29D913328E1505300BBC5C6 /* PremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumView.swift; sourceTree = "<group>"; };
+		E29D913528E17B3900BBC5C6 /* AppearanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceView.swift; sourceTree = "<group>"; };
+		E29D913928E1859D00BBC5C6 /* 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 3.json; sourceTree = "<group>"; };
+		E29D913C28E1934500BBC5C6 /* OTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
+		E2A45132292148F300157FF8 /* ScanOCRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanOCRView.swift; sourceTree = "<group>"; };
+		E2AAADE329299F4B002953BC /* ConvertFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertFileView.swift; sourceTree = "<group>"; };
+		E2AC1F0929129A0B007B9A9A /* PhoneVerifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneVerifyView.swift; sourceTree = "<group>"; };
+		E2AE6475293F960A00EA4D29 /* SiriView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriView.swift; sourceTree = "<group>"; };
+		E2AE64772941139B00EA4D29 /* VerifyPhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyPhoneView.swift; sourceTree = "<group>"; };
+		E2AE647929420A2700EA4D29 /* StudentScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentScheduleView.swift; sourceTree = "<group>"; };
+		E2AF4ADC28DE8482006D9F9E /* QuranView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranView.swift; sourceTree = "<group>"; };
+		E2AF4AE028DE84E7006D9F9E /* SoundsReadersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsReadersView.swift; sourceTree = "<group>"; };
+		E2AF4AE228DE8572006D9F9E /* FitnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessView.swift; sourceTree = "<group>"; };
+		E2AF4AE428DE8DED006D9F9E /* PrayerTimesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesView.swift; sourceTree = "<group>"; };
+		E2AF4AE628DE9028006D9F9E /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		E2AF4AE828DE97A1006D9F9E /* Sidra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sidra.entitlements; sourceTree = "<group>"; };
+		E2BC071A291C627700F41D38 /* QiblaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaView.swift; sourceTree = "<group>"; };
+		E2BC071C291C647200F41D38 /* CompassHeading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompassHeading.swift; sourceTree = "<group>"; };
+		E2C8F2B4291E4BBC00FD0266 /* ContactUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsView.swift; sourceTree = "<group>"; };
+		E2CD97BA291BAA930073C769 /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		E2D68C1F297FE1D0006AE547 /* 14.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 14.json; sourceTree = "<group>"; };
+		E2D68C21297FE8B9006AE547 /* DeniedPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeniedPermissionView.swift; sourceTree = "<group>"; };
+		E2D7B0552944123600E5B5A8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E2DED33D290D7D9D0016A77F /* SFitnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFitnessView.swift; sourceTree = "<group>"; };
+		E2DFA78D2985312B00540EA3 /* QuizInstructions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizInstructions.swift; sourceTree = "<group>"; };
+		E2DFA7912985325C00540EA3 /* QuestionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsView.swift; sourceTree = "<group>"; };
+		E2DFA79329855E0A00540EA3 /* SubjectBooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectBooksView.swift; sourceTree = "<group>"; };
+		E2DFA7952985608000540EA3 /* CloudComputing.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CloudComputing.pdf; sourceTree = "<group>"; };
+		E2DFA79729857A5600540EA3 /* StudentSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSettingsView.swift; sourceTree = "<group>"; };
+		E2DFA7992985814800540EA3 /* GPACalculateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPACalculateView.swift; sourceTree = "<group>"; };
+		E2DFEB6428F1CA3A004DEDCF /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4.json; sourceTree = "<group>"; };
+		E2DFEB6628F3011A004DEDCF /* AddCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCalendarView.swift; sourceTree = "<group>"; };
+		E2DFEB6828F4AC6C004DEDCF /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		E2DFEB6B28F4B39C004DEDCF /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		E2E0222628DB053700694DDA /* NewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTask.swift; sourceTree = "<group>"; };
+		E2E0222828DB084000694DDA /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		E2E507392954AA2D00A407EC /* ResultProcessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultProcessView.swift; sourceTree = "<group>"; };
+		E2E5CD7428D5D4B30091B4C8 /* Sidra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sidra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2E5CD7728D5D4B30091B4C8 /* SidraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidraApp.swift; sourceTree = "<group>"; };
+		E2E5CD7928D5D4B30091B4C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E2E5CD7B28D5D4B50091B4C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2E5CD7E28D5D4B50091B4C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2E5CD8028D5D4B50091B4C8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E2E5CD8328D5D4B50091B4C8 /* Sidra.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sidra.xcdatamodel; sourceTree = "<group>"; };
+		E2E5CD8528D5D4B50091B4C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2E5CD8A28D5D4B60091B4C8 /* SidraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SidraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2E5CD8E28D5D4B60091B4C8 /* SidraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidraTests.swift; sourceTree = "<group>"; };
+		E2E5CD9428D5D4B60091B4C8 /* SidraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SidraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2E5CD9828D5D4B60091B4C8 /* SidraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidraUITests.swift; sourceTree = "<group>"; };
+		E2E5CD9A28D5D4B60091B4C8 /* SidraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2E5CDAA28D5D6F50091B4C8 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		E2E5CDAC28D5D7890091B4C8 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		E2E5CDAE28D5D82F0091B4C8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		E2E5CDB028D5DAED0091B4C8 /* Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ext.swift; sourceTree = "<group>"; };
+		E2ED3FEB28E6276A00EF3EAC /* AdvancedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedView.swift; sourceTree = "<group>"; };
+		E2EFAECD2936CDF000B595A4 /* ListNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNotificationView.swift; sourceTree = "<group>"; };
+		E2EFAECF2936D91800B595A4 /* CreateNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNotificationView.swift; sourceTree = "<group>"; };
+		E2EFAED12938D8B900B595A4 /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
+		E2EFAED32938D92600B595A4 /* audioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audioView.swift; sourceTree = "<group>"; };
+		E2EFAED5293AAE6800B595A4 /* TermsAndConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsView.swift; sourceTree = "<group>"; };
+		E2EFAED7293AB21500B595A4 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2E5CD7128D5D4B30091B4C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21846FE28DF729A0087309C /* Lottie in Frameworks */,
+				E2C8F2BA291E7E0A00FD0266 /* Adhan in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E5CD8728D5D4B60091B4C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E5CD9128D5D4B60091B4C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2000AC8298227EA00DCA1DE /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E2000ACC2982285100DCA1DE /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E2000AC92982282E00DCA1DE /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				E2000ACE2982286200DCA1DE /* CalculatorButtonStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		E2000ACA2982283600DCA1DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2000AD22982287000DCA1DE /* ArithmeticOperation.swift */,
+				E2000AD12982287000DCA1DE /* ButtonType.swift */,
+				E2000AD02982287000DCA1DE /* Calculator.swift */,
+				E2000AD42982287000DCA1DE /* CalculatorViewModel.swift */,
+				E2000AD32982287000DCA1DE /* Digit.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E21846FF28DF748C0087309C /* LottieJson */ = {
+			isa = PBXGroup;
+			children = (
+				E26A80FF2985BA83003D618B /* 16.json */,
+				E26A81002985BA84003D618B /* 15.json */,
+				E2D68C1F297FE1D0006AE547 /* 14.json */,
+				E237D7F52961E098007087CE /* 13.json */,
+				E237257D295A193A0039D6F2 /* 12.json */,
+				E237257F295B49580039D6F2 /* 11.json */,
+				E2091214294FB6DF008C4579 /* 10.json */,
+				E2091212294FA38E008C4579 /* 9.json */,
+				E283CD47294B2BFD009B72C1 /* 7.json */,
+				E29D913128E0B1B100BBC5C6 /* 2.json */,
+				E29D913928E1859D00BBC5C6 /* 3.json */,
+				E2DFEB6428F1CA3A004DEDCF /* 4.json */,
+			);
+			path = LottieJson;
+			sourceTree = "<group>";
+		};
+		E283CD2F294A0653009B72C1 /* Students */ = {
+			isa = PBXGroup;
+			children = (
+				E2AE647929420A2700EA4D29 /* StudentScheduleView.swift */,
+				E283CD30294A59E5009B72C1 /* SemesterDetailsView.swift */,
+				E283CD32294A5B72009B72C1 /* SubjectsView.swift */,
+				E21506172948D1550068A197 /* SubjectDetailsView.swift */,
+				E2DFA79329855E0A00540EA3 /* SubjectBooksView.swift */,
+				E25FF43129869B5500A95CE8 /* AddSubjectView.swift */,
+				E2DFA7992985814800540EA3 /* GPACalculateView.swift */,
+				E2DFA78C2985312000540EA3 /* Quiz */,
+			);
+			path = Students;
+			sourceTree = "<group>";
+		};
+		E283CD3A294A800D009B72C1 /* PDFViewer */ = {
+			isa = PBXGroup;
+			children = (
+				E283CD3B294A8026009B72C1 /* DownloadManager.swift */,
+				E283CD3C294A8026009B72C1 /* PDFReaderView.swift */,
+				E283CD3F294A8026009B72C1 /* PDFViewer.swift */,
+				E283CD3E294A8026009B72C1 /* ProgressPDF.swift */,
+			);
+			path = PDFViewer;
+			sourceTree = "<group>";
+		};
+		E29D913B28E18BAD00BBC5C6 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E2E0222828DB084000694DDA /* Settings.swift */,
+				E2043611294CF32B00746A3A /* FaceIDView.swift */,
+				E23D67C528DE3B1500C5C29B /* Login.swift */,
+				E2EFAED5293AAE6800B595A4 /* TermsAndConditionsView.swift */,
+				E29D913528E17B3900BBC5C6 /* AppearanceView.swift */,
+				E29D913328E1505300BBC5C6 /* PremiumView.swift */,
+				E2ED3FEB28E6276A00EF3EAC /* AdvancedView.swift */,
+				E283CD34294A641F009B72C1 /* CloudView.swift */,
+				E2EFAED7293AB21500B595A4 /* LocationView.swift */,
+				E2AE6475293F960A00EA4D29 /* SiriView.swift */,
+				E2091210294FA0D5008C4579 /* ShortcutsView.swift */,
+				E2298A5429463CB300D9999A /* CalendarSettingsView.swift */,
+				E2DFA79729857A5600540EA3 /* StudentSettingsView.swift */,
+				E29A232B296361AB00BCD3EC /* MuslimSettingsView.swift */,
+				E2000AB82981F57900DCA1DE /* SoundsSettingsView.swift */,
+				E2000ABE29820B6E00DCA1DE /* FitnessSettingsView.swift */,
+				E2C8F2B4291E4BBC00FD0266 /* ContactUsView.swift */,
+				E204361D294DD44100746A3A /* AboutView.swift */,
+				E2043629294E0D2E00746A3A /* WhatIsNewView.swift */,
+				E2DFEB6A28F4AC6F004DEDCF /* Notifications */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E2CD97BC291BAA9E0073C769 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E2CD97BA291BAA930073C769 /* ServicesView.swift */,
+				E2DFEB6B28F4B39C004DEDCF /* ContactsView.swift */,
+				E20F17D62987B981002299A4 /* CalculationMenuView.swift */,
+				E2000ADA2982288A00DCA1DE /* CalculatorButton.swift */,
+				E2000ADB2982288A00DCA1DE /* CalculatorView.swift */,
+				E2000AC8298227EA00DCA1DE /* Constants */,
+				E2000AC92982282E00DCA1DE /* Style */,
+				E2000ACA2982283600DCA1DE /* Models */,
+				E2A45132292148F300157FF8 /* ScanOCRView.swift */,
+				E2AAADE329299F4B002953BC /* ConvertFileView.swift */,
+				E2298A562947778200D9999A /* ProcessFileView.swift */,
+				E2E507392954AA2D00A407EC /* ResultProcessView.swift */,
+				E281F0A72919174F00C6851A /* InfoDeviceView.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E2D4B42729259F5C0074B510 /* Muslims */ = {
+			isa = PBXGroup;
+			children = (
+				E2AF4AE428DE8DED006D9F9E /* PrayerTimesView.swift */,
+				E2AF4ADC28DE8482006D9F9E /* QuranView.swift */,
+				E283CD45294A8051009B72C1 /* tryQuranView.swift */,
+				E25521C128EF72D400A7DC16 /* QuranHomeView.swift */,
+				E23D67C728DE637C00C5C29B /* HisnulMuslim.swift */,
+				E259A60A28E7A33E00C06C5F /* NamesOfAllahView.swift */,
+				E2AF4AE028DE84E7006D9F9E /* SoundsReadersView.swift */,
+				E2EFAED12938D8B900B595A4 /* ReaderView.swift */,
+				E2EFAED32938D92600B595A4 /* audioView.swift */,
+				E2BC071A291C627700F41D38 /* QiblaView.swift */,
+				E2BC071C291C647200F41D38 /* CompassHeading.swift */,
+			);
+			path = Muslims;
+			sourceTree = "<group>";
+		};
+		E2D4B42829259F7D0074B510 /* Fitness */ = {
+			isa = PBXGroup;
+			children = (
+				E2AF4AE228DE8572006D9F9E /* FitnessView.swift */,
+				E20F17FE29882A4B002299A4 /* FitnessCardView.swift */,
+				E20F180029883F59002299A4 /* SleepCardView.swift */,
+				E2DED33D290D7D9D0016A77F /* SFitnessView.swift */,
+			);
+			path = Fitness;
+			sourceTree = "<group>";
+		};
+		E2DFA78C2985312000540EA3 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				E2DFA78D2985312B00540EA3 /* QuizInstructions.swift */,
+				E2DFA7912985325C00540EA3 /* QuestionsView.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		E2DFEB6A28F4AC6F004DEDCF /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				E2DFEB6828F4AC6C004DEDCF /* NotificationsView.swift */,
+				E2EFAECD2936CDF000B595A4 /* ListNotificationView.swift */,
+				E2EFAECF2936D91800B595A4 /* CreateNotificationView.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		E2E5CD6B28D5D4B30091B4C8 = {
+			isa = PBXGroup;
+			children = (
+				E2E5CD7628D5D4B30091B4C8 /* Sidra */,
+				E2E5CD8D28D5D4B60091B4C8 /* SidraTests */,
+				E2E5CD9728D5D4B60091B4C8 /* SidraUITests */,
+				E2E5CD7528D5D4B30091B4C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2E5CD7528D5D4B30091B4C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2E5CD7428D5D4B30091B4C8 /* Sidra.app */,
+				E2E5CD8A28D5D4B60091B4C8 /* SidraTests.xctest */,
+				E2E5CD9428D5D4B60091B4C8 /* SidraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2E5CD7628D5D4B30091B4C8 /* Sidra */ = {
+			isa = PBXGroup;
+			children = (
+				E2AF4AE828DE97A1006D9F9E /* Sidra.entitlements */,
+				E2E5CD7728D5D4B30091B4C8 /* SidraApp.swift */,
+				E29D912F28E0861400BBC5C6 /* WelcomeView.swift */,
+				E2E5CD7928D5D4B30091B4C8 /* ContentView.swift */,
+				E2E5CDA728D5D4F90091B4C8 /* Models */,
+				E2E5CDA828D5D5070091B4C8 /* Views */,
+				E2E5CDA928D5D5130091B4C8 /* ViewModels */,
+				E283CD3A294A800D009B72C1 /* PDFViewer */,
+				E2D68C21297FE8B9006AE547 /* DeniedPermissionView.swift */,
+				E2E5CD7B28D5D4B50091B4C8 /* Assets.xcassets */,
+				E2E5CDB028D5DAED0091B4C8 /* Ext.swift */,
+				E204361B294D0E0500746A3A /* Localizable.strings */,
+				E259A60C28E7A5BE00C06C5F /* HisnMuslim_EN.json */,
+				E259A60828E7766500C06C5F /* NamesOfAllah_EN.json */,
+				E25521C328EF746100A7DC16 /* QuranIndex_EN.json */,
+				E262B8FB28EBE9100027021E /* xxx.pdf */,
+				E2DFA7952985608000540EA3 /* CloudComputing.pdf */,
+				E2E5CD8528D5D4B50091B4C8 /* Info.plist */,
+				E2E5CD8228D5D4B50091B4C8 /* Sidra.xcdatamodeld */,
+				E2E5CD8028D5D4B50091B4C8 /* Persistence.swift */,
+				E2E5CD7D28D5D4B50091B4C8 /* Preview Content */,
+				E21846FF28DF748C0087309C /* LottieJson */,
+			);
+			path = Sidra;
+			sourceTree = "<group>";
+		};
+		E2E5CD7D28D5D4B50091B4C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E2E5CD7E28D5D4B50091B4C8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2E5CD8D28D5D4B60091B4C8 /* SidraTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2E5CD8E28D5D4B60091B4C8 /* SidraTests.swift */,
+			);
+			path = SidraTests;
+			sourceTree = "<group>";
+		};
+		E2E5CD9728D5D4B60091B4C8 /* SidraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2E5CD9828D5D4B60091B4C8 /* SidraUITests.swift */,
+				E2E5CD9A28D5D4B60091B4C8 /* SidraUITestsLaunchTests.swift */,
+			);
+			path = SidraUITests;
+			sourceTree = "<group>";
+		};
+		E2E5CDA728D5D4F90091B4C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2E5CDAA28D5D6F50091B4C8 /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E2E5CDA828D5D5070091B4C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E2E5CDAE28D5D82F0091B4C8 /* Home.swift */,
+				E2D7B0552944123600E5B5A8 /* HomeView.swift */,
+				E2AF4AE628DE9028006D9F9E /* CalendarView.swift */,
+				E2E0222628DB053700694DDA /* NewTask.swift */,
+				E204362B294E151300746A3A /* ProfileView.swift */,
+				E29D913B28E18BAD00BBC5C6 /* Settings */,
+				E2618F4428DA16E600A4937C /* DynamicFilteredView.swift */,
+				E2D4B42729259F5C0074B510 /* Muslims */,
+				E2D4B42829259F7D0074B510 /* Fitness */,
+				E2CD97BC291BAA9E0073C769 /* Services */,
+				E2AC1F0929129A0B007B9A9A /* PhoneVerifyView.swift */,
+				E2AE64772941139B00EA4D29 /* VerifyPhoneView.swift */,
+				E29D913C28E1934500BBC5C6 /* OTPView.swift */,
+				E209902828E294C800E0F586 /* AllCalendarView.swift */,
+				E2DFEB6628F3011A004DEDCF /* AddCalendarView.swift */,
+				E283CD2F294A0653009B72C1 /* Students */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E2E5CDA928D5D5130091B4C8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E2E5CDAC28D5D7890091B4C8 /* CalendarViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2E5CD7328D5D4B30091B4C8 /* Sidra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2E5CD9E28D5D4B60091B4C8 /* Build configuration list for PBXNativeTarget "Sidra" */;
+			buildPhases = (
+				E2E5CD7028D5D4B30091B4C8 /* Sources */,
+				E2E5CD7128D5D4B30091B4C8 /* Frameworks */,
+				E2E5CD7228D5D4B30091B4C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sidra;
+			packageProductDependencies = (
+				E21846FD28DF729A0087309C /* Lottie */,
+				E2C8F2B9291E7E0A00FD0266 /* Adhan */,
+			);
+			productName = Sidra;
+			productReference = E2E5CD7428D5D4B30091B4C8 /* Sidra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2E5CD8928D5D4B60091B4C8 /* SidraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2E5CDA128D5D4B60091B4C8 /* Build configuration list for PBXNativeTarget "SidraTests" */;
+			buildPhases = (
+				E2E5CD8628D5D4B60091B4C8 /* Sources */,
+				E2E5CD8728D5D4B60091B4C8 /* Frameworks */,
+				E2E5CD8828D5D4B60091B4C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2E5CD8C28D5D4B60091B4C8 /* PBXTargetDependency */,
+			);
+			name = SidraTests;
+			productName = SidraTests;
+			productReference = E2E5CD8A28D5D4B60091B4C8 /* SidraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2E5CD9328D5D4B60091B4C8 /* SidraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2E5CDA428D5D4B60091B4C8 /* Build configuration list for PBXNativeTarget "SidraUITests" */;
+			buildPhases = (
+				E2E5CD9028D5D4B60091B4C8 /* Sources */,
+				E2E5CD9128D5D4B60091B4C8 /* Frameworks */,
+				E2E5CD9228D5D4B60091B4C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2E5CD9628D5D4B60091B4C8 /* PBXTargetDependency */,
+			);
+			name = SidraUITests;
+			productName = SidraUITests;
+			productReference = E2E5CD9428D5D4B60091B4C8 /* SidraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2E5CD6C28D5D4B30091B4C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					E2E5CD7328D5D4B30091B4C8 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					E2E5CD8928D5D4B60091B4C8 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = E2E5CD7328D5D4B30091B4C8;
+					};
+					E2E5CD9328D5D4B60091B4C8 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = E2E5CD7328D5D4B30091B4C8;
+					};
+				};
+			};
+			buildConfigurationList = E2E5CD6F28D5D4B30091B4C8 /* Build configuration list for PBXProject "Sidra" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = E2E5CD6B28D5D4B30091B4C8;
+			packageReferences = (
+				E21846FC28DF729A0087309C /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				E2C8F2B8291E7E0A00FD0266 /* XCRemoteSwiftPackageReference "adhan-swift" */,
+			);
+			productRefGroup = E2E5CD7528D5D4B30091B4C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2E5CD7328D5D4B30091B4C8 /* Sidra */,
+				E2E5CD8928D5D4B60091B4C8 /* SidraTests */,
+				E2E5CD9328D5D4B60091B4C8 /* SidraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2E5CD7228D5D4B30091B4C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2091215294FB6DF008C4579 /* 10.json in Resources */,
+				E2091213294FA38F008C4579 /* 9.json in Resources */,
+				E2DFEB6528F1CA3A004DEDCF /* 4.json in Resources */,
+				E283CD48294B2BFD009B72C1 /* 7.json in Resources */,
+				E2D68C20297FE1D1006AE547 /* 14.json in Resources */,
+				E259A60D28E7A5BE00C06C5F /* HisnMuslim_EN.json in Resources */,
+				E237257E295A193A0039D6F2 /* 12.json in Resources */,
+				E2DFA7962985608000540EA3 /* CloudComputing.pdf in Resources */,
+				E25521C428EF746100A7DC16 /* QuranIndex_EN.json in Resources */,
+				E29D913A28E1859D00BBC5C6 /* 3.json in Resources */,
+				E2372580295B49580039D6F2 /* 11.json in Resources */,
+				E237D7F62961E098007087CE /* 13.json in Resources */,
+				E26A81012985BA84003D618B /* 16.json in Resources */,
+				E29D913228E0B1B100BBC5C6 /* 2.json in Resources */,
+				E2E5CD7F28D5D4B50091B4C8 /* Preview Assets.xcassets in Resources */,
+				E2E5CD7C28D5D4B50091B4C8 /* Assets.xcassets in Resources */,
+				E2043619294D0E0500746A3A /* Localizable.strings in Resources */,
+				E26A81022985BA84003D618B /* 15.json in Resources */,
+				E259A60928E7766500C06C5F /* NamesOfAllah_EN.json in Resources */,
+				E262B8FC28EBE9100027021E /* xxx.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E5CD8828D5D4B60091B4C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E5CD9228D5D4B60091B4C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2E5CD7028D5D4B30091B4C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29D913D28E1934500BBC5C6 /* OTPView.swift in Sources */,
+				E20F17D72987B981002299A4 /* CalculationMenuView.swift in Sources */,
+				E2EFAED8293AB21500B595A4 /* LocationView.swift in Sources */,
+				E2000AD52982287000DCA1DE /* Calculator.swift in Sources */,
+				E2043612294CF32B00746A3A /* FaceIDView.swift in Sources */,
+				E2EFAED22938D8B900B595A4 /* ReaderView.swift in Sources */,
+				E204361E294DD44100746A3A /* AboutView.swift in Sources */,
+				E2E5CD8128D5D4B50091B4C8 /* Persistence.swift in Sources */,
+				E20F17FF29882A4B002299A4 /* FitnessCardView.swift in Sources */,
+				E2298A572947778200D9999A /* ProcessFileView.swift in Sources */,
+				E2E5CDAD28D5D7890091B4C8 /* CalendarViewModel.swift in Sources */,
+				E283CD43294A8026009B72C1 /* ProgressPDF.swift in Sources */,
+				E204362C294E151300746A3A /* ProfileView.swift in Sources */,
+				E2D68C22297FE8B9006AE547 /* DeniedPermissionView.swift in Sources */,
+				E2DFA79429855E0A00540EA3 /* SubjectBooksView.swift in Sources */,
+				E2000ACD2982285100DCA1DE /* Constants.swift in Sources */,
+				E2DFEB6C28F4B39C004DEDCF /* ContactsView.swift in Sources */,
+				E2000AD92982287000DCA1DE /* CalculatorViewModel.swift in Sources */,
+				E2AF4AE528DE8DED006D9F9E /* PrayerTimesView.swift in Sources */,
+				E2AF4ADD28DE8482006D9F9E /* QuranView.swift in Sources */,
+				E2DFA79A2985814800540EA3 /* GPACalculateView.swift in Sources */,
+				E2EFAED6293AAE6800B595A4 /* TermsAndConditionsView.swift in Sources */,
+				E2000AD62982287000DCA1DE /* ButtonType.swift in Sources */,
+				E2ED3FEC28E6276A00EF3EAC /* AdvancedView.swift in Sources */,
+				E2AF4AE328DE8572006D9F9E /* FitnessView.swift in Sources */,
+				E283CD31294A59E5009B72C1 /* SemesterDetailsView.swift in Sources */,
+				E2E5CD8428D5D4B50091B4C8 /* Sidra.xcdatamodeld in Sources */,
+				E2000ABF29820B6E00DCA1DE /* FitnessSettingsView.swift in Sources */,
+				E29D913428E1505300BBC5C6 /* PremiumView.swift in Sources */,
+				E23D67C628DE3B1500C5C29B /* Login.swift in Sources */,
+				E2DFEB6728F3011A004DEDCF /* AddCalendarView.swift in Sources */,
+				E2618F4528DA16E600A4937C /* DynamicFilteredView.swift in Sources */,
+				E2E5CDAB28D5D6F50091B4C8 /* Task.swift in Sources */,
+				E209902928E294C800E0F586 /* AllCalendarView.swift in Sources */,
+				E281F0A82919174F00C6851A /* InfoDeviceView.swift in Sources */,
+				E2DFA78E2985312B00540EA3 /* QuizInstructions.swift in Sources */,
+				E29D913628E17B3900BBC5C6 /* AppearanceView.swift in Sources */,
+				E2091211294FA0D5008C4579 /* ShortcutsView.swift in Sources */,
+				E2E5073A2954AA2D00A407EC /* ResultProcessView.swift in Sources */,
+				E283CD33294A5B72009B72C1 /* SubjectsView.swift in Sources */,
+				E283CD44294A8026009B72C1 /* PDFViewer.swift in Sources */,
+				E259A60B28E7A33E00C06C5F /* NamesOfAllahView.swift in Sources */,
+				E2AAADE429299F4B002953BC /* ConvertFileView.swift in Sources */,
+				E2DFEB6928F4AC6C004DEDCF /* NotificationsView.swift in Sources */,
+				E20F180129883F59002299A4 /* SleepCardView.swift in Sources */,
+				E2E5CD7A28D5D4B30091B4C8 /* ContentView.swift in Sources */,
+				E2000AB92981F57A00DCA1DE /* SoundsSettingsView.swift in Sources */,
+				E2BC071B291C627700F41D38 /* QiblaView.swift in Sources */,
+				E25521C228EF72D400A7DC16 /* QuranHomeView.swift in Sources */,
+				E2E5CDB128D5DAED0091B4C8 /* Ext.swift in Sources */,
+				E2DED33E290D7D9D0016A77F /* SFitnessView.swift in Sources */,
+				E283CD41294A8026009B72C1 /* PDFReaderView.swift in Sources */,
+				E2000AD72982287000DCA1DE /* ArithmeticOperation.swift in Sources */,
+				E2E0222728DB053700694DDA /* NewTask.swift in Sources */,
+				E2000AD82982287000DCA1DE /* Digit.swift in Sources */,
+				E25FF43229869B5500A95CE8 /* AddSubjectView.swift in Sources */,
+				E2298A5529463CB300D9999A /* CalendarSettingsView.swift in Sources */,
+				E2DFA79829857A5600540EA3 /* StudentSettingsView.swift in Sources */,
+				E21506182948D1550068A197 /* SubjectDetailsView.swift in Sources */,
+				E23D67C828DE637C00C5C29B /* HisnulMuslim.swift in Sources */,
+				E2E5CD7828D5D4B30091B4C8 /* SidraApp.swift in Sources */,
+				E2AF4AE728DE9028006D9F9E /* CalendarView.swift in Sources */,
+				E2E0222928DB084000694DDA /* Settings.swift in Sources */,
+				E2000ADC2982288A00DCA1DE /* CalculatorButton.swift in Sources */,
+				E2BC071D291C647200F41D38 /* CompassHeading.swift in Sources */,
+				E2AE647A29420A2700EA4D29 /* StudentScheduleView.swift in Sources */,
+				E283CD46294A8051009B72C1 /* tryQuranView.swift in Sources */,
+				E2A45133292148F300157FF8 /* ScanOCRView.swift in Sources */,
+				E283CD35294A641F009B72C1 /* CloudView.swift in Sources */,
+				E2EFAECE2936CDF000B595A4 /* ListNotificationView.swift in Sources */,
+				E29A232C296361AB00BCD3EC /* MuslimSettingsView.swift in Sources */,
+				E2C8F2B5291E4BBC00FD0266 /* ContactUsView.swift in Sources */,
+				E2D7B0562944123600E5B5A8 /* HomeView.swift in Sources */,
+				E2AF4AE128DE84E7006D9F9E /* SoundsReadersView.swift in Sources */,
+				E2EFAED42938D92600B595A4 /* audioView.swift in Sources */,
+				E2000ADD2982288A00DCA1DE /* CalculatorView.swift in Sources */,
+				E2CD97BB291BAA930073C769 /* ServicesView.swift in Sources */,
+				E2E5CDAF28D5D82F0091B4C8 /* Home.swift in Sources */,
+				E2AE6476293F960A00EA4D29 /* SiriView.swift in Sources */,
+				E2AE64782941139B00EA4D29 /* VerifyPhoneView.swift in Sources */,
+				E204362A294E0D2E00746A3A /* WhatIsNewView.swift in Sources */,
+				E283CD40294A8026009B72C1 /* DownloadManager.swift in Sources */,
+				E2EFAED02936D91800B595A4 /* CreateNotificationView.swift in Sources */,
+				E2000ACF2982286200DCA1DE /* CalculatorButtonStyle.swift in Sources */,
+				E2AC1F0A29129A0B007B9A9A /* PhoneVerifyView.swift in Sources */,
+				E29D913028E0861400BBC5C6 /* WelcomeView.swift in Sources */,
+				E2DFA7922985325C00540EA3 /* QuestionsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E5CD8628D5D4B60091B4C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2E5CD8F28D5D4B60091B4C8 /* SidraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E5CD9028D5D4B60091B4C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2E5CD9B28D5D4B60091B4C8 /* SidraUITestsLaunchTests.swift in Sources */,
+				E2E5CD9928D5D4B60091B4C8 /* SidraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2E5CD8C28D5D4B60091B4C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2E5CD7328D5D4B30091B4C8 /* Sidra */;
+			targetProxy = E2E5CD8B28D5D4B60091B4C8 /* PBXContainerItemProxy */;
+		};
+		E2E5CD9628D5D4B60091B4C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2E5CD7328D5D4B30091B4C8 /* Sidra */;
+			targetProxy = E2E5CD9528D5D4B60091B4C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E204361B294D0E0500746A3A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E204361C294D0E4900746A3A /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2E5CD9C28D5D4B60091B4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon 1 AppIcon 2 AppIcon 3 AppIcon 4";
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2E5CD9D28D5D4B60091B4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon 1 AppIcon 2 AppIcon 3 AppIcon 4";
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2E5CD9F28D5D4B60091B4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sidra/Sidra.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sidra/Preview Content\"";
+				DEVELOPMENT_TEAM = 863J5PKS86;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sidra/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSContactsUsageDescription = "We love you and need to access to contacts ❤️";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We love you ❤️";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access your health data";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need location when in use ❤️";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We love you ❤️";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LauncScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Assiry.Sidra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2E5CDA028D5D4B60091B4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sidra/Sidra.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sidra/Preview Content\"";
+				DEVELOPMENT_TEAM = 863J5PKS86;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sidra/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSContactsUsageDescription = "We love you and need to access to contacts ❤️";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We love you ❤️";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access your health data";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need location when in use ❤️";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We love you ❤️";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LauncScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Assiry.Sidra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2E5CDA228D5D4B60091B4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 863J5PKS86;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Assiry.SidraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sidra.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sidra";
+			};
+			name = Debug;
+		};
+		E2E5CDA328D5D4B60091B4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 863J5PKS86;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Assiry.SidraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sidra.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sidra";
+			};
+			name = Release;
+		};
+		E2E5CDA528D5D4B60091B4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 863J5PKS86;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Assiry.SidraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sidra;
+			};
+			name = Debug;
+		};
+		E2E5CDA628D5D4B60091B4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 863J5PKS86;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Assiry.SidraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sidra;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2E5CD6F28D5D4B30091B4C8 /* Build configuration list for PBXProject "Sidra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2E5CD9C28D5D4B60091B4C8 /* Debug */,
+				E2E5CD9D28D5D4B60091B4C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2E5CD9E28D5D4B60091B4C8 /* Build configuration list for PBXNativeTarget "Sidra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2E5CD9F28D5D4B60091B4C8 /* Debug */,
+				E2E5CDA028D5D4B60091B4C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2E5CDA128D5D4B60091B4C8 /* Build configuration list for PBXNativeTarget "SidraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2E5CDA228D5D4B60091B4C8 /* Debug */,
+				E2E5CDA328D5D4B60091B4C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2E5CDA428D5D4B60091B4C8 /* Build configuration list for PBXNativeTarget "SidraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2E5CDA528D5D4B60091B4C8 /* Debug */,
+				E2E5CDA628D5D4B60091B4C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E21846FC28DF729A0087309C /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		E2C8F2B8291E7E0A00FD0266 /* XCRemoteSwiftPackageReference "adhan-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/batoulapps/adhan-swift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E21846FD28DF729A0087309C /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E21846FC28DF729A0087309C /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		E2C8F2B9291E7E0A00FD0266 /* Adhan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2C8F2B8291E7E0A00FD0266 /* XCRemoteSwiftPackageReference "adhan-swift" */;
+			productName = Adhan;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		E2E5CD8228D5D4B50091B4C8 /* Sidra.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E2E5CD8328D5D4B50091B4C8 /* Sidra.xcdatamodel */,
+			);
+			currentVersion = E2E5CD8328D5D4B50091B4C8 /* Sidra.xcdatamodel */;
+			path = Sidra.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E2E5CD6C28D5D4B30091B4C8 /* Project object */;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="22D49" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="EventCoreData" representedClassName="EventCoreData" syncable="YES" codeGenerationType="class"/>
+    <entity name="SubjectsCoreData" representedClassName="SubjectsCoreData" syncable="YES" codeGenerationType="class">
+        <attribute name="codeSubject" optional="YES" attributeType="String"/>
+        <attribute name="nameSubject" optional="YES" attributeType="String"/>
+        <attribute name="nameTeacher" optional="YES" attributeType="String"/>
+        <attribute name="roomSubject" optional="YES" attributeType="String"/>
+        <attribute name="startTimeSubject" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="TaskCoreData" representedClassName="TaskCoreData" syncable="YES" codeGenerationType="class">
+        <attribute name="taskColor" optional="YES" attributeType="String"/>
+        <attribute name="taskDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="taskIsCompleted" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="taskIsDeleted" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="taskLabel" optional="YES" attributeType="String"/>
+        <attribute name="taskList" optional="YES" attributeType="String"/>
+        <attribute name="taskLocation" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="taskNotes" optional="YES" attributeType="String"/>
+        <attribute name="taskNotification" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="taskTitle" optional="YES" attributeType="String"/>
+    </entity>
+</model>
